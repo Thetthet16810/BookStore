@@ -1,0 +1,16 @@
+@font-face{
+	font-family:'aa';
+	src:url('../fonts/Bellota/Bellota-Regular.ttf');
+}
+@font-face{
+	font-family: 'bb';
+	src:url('../fonts/Great_Vibes/GreatVibes-Regular.ttf');
+}
+@font-face{
+	font-family: 'pom';
+	src:url('../fonts/Pompiere/Pompiere-Regular.ttf');
+}
+@font-face{
+	font-family: 'quicksand';
+	src:url('../fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
