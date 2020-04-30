@@ -171,7 +171,7 @@ $("document").ready(function(){
                 <td scope="row" id="bname">${v.bname}</td>
                 <td>${v.author}</td>
                 <td>${v.price}</td>
-                <td><button id="plus" data-i="${i}"> + </button> ${v.qty}<button id="minus" data-i="${i}"> - </button></td>
+                <td><span id="plus" data-i="${i}"> + </span> ${v.qty}<span id="minus" data-i="${i}"> - </span></td>
                 <td>${subTotal}</td>
                  </tr>`;
 

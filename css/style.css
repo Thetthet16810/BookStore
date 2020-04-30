@@ -225,7 +225,7 @@ ol {
 	bottom: 9px;
 	width: 5px;
 	height: 5px;
-	background: #F9AD81;
+	/*background: #F9AD81;*/
 	content: "";
 	border-radius: 50%;
 	-webkit-transform: translateX(-2.5px);
@@ -325,16 +325,16 @@ ol {
 		height: 5px;
 	}
 	.slicknav_nav {
-		background: grey;
+		background: #c79851;
 		padding: 15px 0;
 	}
 	.slicknav_nav li:hover {
 		border-radius: 0;
-		background: #F9AD81;
+		background: #a98041;
 		color: #ffffff;
 	}
 	.slicknav_nav li li:hover {
-		background: grey;
+		background: #b9812c;
 		color: #ffffff;
 	}
 	.slicknav_nav li:hover a {
@@ -400,16 +400,16 @@ ol {
 		height: 5px;
 	}
 	.slicknav_nav {
-		background: grey;
+		background: #c79851;
 		padding: 15px 0;
 	}
 	.slicknav_nav li:hover {
 		border-radius: 0;
-		background: #F9AD81;
+		background: #a98041;
 		color: #ffffff;
 	}
 	.slicknav_nav li li:hover {
-		background: grey;
+		background: #b9812c;
 		color: #ffffff;
 	}
 	.slicknav_nav li:hover a {
@@ -479,16 +479,16 @@ ol {
 		height: 5px;
 	}
 	.slicknav_nav {
-		background: grey;
+		background: #c79851;
 		padding: 15px 0;
 	}
 	.slicknav_nav li:hover {
 		border-radius: 0;
-		background: #F9AD81;
+		background: #a98041;
 		color: #ffffff;
 	}
 	.slicknav_nav li li:hover {
-		background: grey;
+		background: #b9812c;
 		color: #ffffff;
 	}
 	.slicknav_nav li:hover a {
@@ -1279,10 +1279,11 @@ p.author{
 	font-size: 18px;
 }
 #checkout #plus{
-	border:none;
+	
+ 	cursor: pointer;
 }
 #checkout #minus{
-	border:none;
+	cursor: pointer;
 }
 /*#checkout #plus{
 	background-color:#ffffff;
